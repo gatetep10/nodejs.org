@@ -87,5 +87,5 @@ http.createServer((req, res) => {
   mount(req, res)
 }).listen(port, () => console.log(`\x1B[32mServer running at http://localhost:${port}/${mainLocale}/\x1B[39m`))
 
-// Start the initial build of static HTML page
+// Start the initial build of static HTML pages
 build.fullBuild({ selectedLocales, preserveLocale })
